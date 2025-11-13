@@ -271,7 +271,7 @@ composer test
 
 ```bash
 cd /path/to/laravel/project
-composer require "your-vendor/appleid-share-client:@dev" --prefer-source
+composer require "jiesuolink/appleid-share-client:@dev" --prefer-source
 ```
 
 ## 安全注意事项
