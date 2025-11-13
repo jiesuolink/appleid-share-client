@@ -231,7 +231,7 @@ resources/views/vendor/appleid-share/appleid.blade.php
 ## 目录结构
 
 ```
-your-vendor/appleid-share-client/
+jiesuolink/appleid-share-client/
 ├── src/
 │   ├── ShareController.php              # 控制器
 │   └── AppleIdShareServiceProvider.php  # 服务提供者
