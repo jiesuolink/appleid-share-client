@@ -1,0 +1,47 @@
+{
+    "name": "jiesuolink/appleid-share-client",
+    "description": "Apple ID 分享 API 客户端 - Laravel 集成包",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "apple-id",
+        "api-client",
+        "share"
+    ],
+    "authors": [
+        {
+            "name": "JiesuoLink",
+            "email": "support@jiesuo.link"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0|^8.1|^8.2",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/http": "^8.0|^9.0|^10.0|^11.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0",
+        "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AppleIdShare\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AppleIdShare\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AppleIdShare\\AppleIdShareServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
